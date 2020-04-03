@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-const Image = ({filename, alt, style}) => {
+const Image = ({filename, alt, style, className}) => {
     const data = useStaticQuery(
         graphql`
         query {
@@ -36,6 +36,7 @@ const Image = ({filename, alt, style}) => {
         <Img
         alt={alt}
         sizes={imageSizes}
+        placeholderClassName={className}
         style={style} />
     )
 }
@@ -48,6 +49,7 @@ Image.defaultProps = {
 Image.propTypes = {
     filename: PropTypes.string.isRequired,
     alt: PropTypes.string,
+    className: PropTypes.string,
     style: PropTypes.object,
 }
 

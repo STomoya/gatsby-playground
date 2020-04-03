@@ -13,29 +13,99 @@ const About = () => {
                 <p>This is a sample site for playing around with GatsbyJS.</p>
             </div>
 
-            <div className={"container"}>
-                <h3 className={"text-center mb-2"}>What I am Using</h3>
-                <div className={"d-flex justify-content-center"}>
-                    <div className={"row"}>
-                        <div className={"col-md mb-1"}>
-                            <a href={"https://www.gatsbyjs.org/"}><Image filename={"gatsby_logo.png"} style={{width: '50px'}}/></a>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+
+            <div className={"container-sm"}>
+                <h3 className={"text-center mb-5"} data-aos={"fade-left"}>What I am Using</h3>
+                <div className={"row d-flex justify-content-center"}>
+                    <div className={"card border-0 mx-3 mb-3"} data-aos={"zoom-in"}>
+                        <a href={"https://www.gatsbyjs.org/"} className={"d-flex justify-content-center"}><Image filename={"gatsby_logo.png"} className={"card-img-top"} style={{width: '50px'}}/></a>
+                        <div className={"card-body"} style={{padding: "0px"}}>
+                            <div className={"card-text"}>Gatsby</div>
                         </div>
-                        <div className={"col-md mb-1"}>
-                            <a href={"https://reactjs.org/"}><Image filename={"react_logo.png"} style={{width: '50px'}}/></a>
+                    </div>
+                    <div className={"card border-0 mx-3 mb-3"} data-aos={"zoom-in"}>
+                        <a href={"https://reactjs.org/"} className={"d-flex justify-content-center"}><Image filename={"react_logo.png"} className={"card-img-top"} style={{width: '50px'}}/></a>
+                        <div className={"card-body"} style={{padding: "0px"}}>
+                            <div className={"card-text"}>React</div>
                         </div>
-                        <div className={"col-md mb-1"}>
-                            <a href={"https://www.docker.com/"}><Image filename={"docker_logo.png"} style={{width: '50px'}}/></a>
+                    </div>
+                    <div className={"card border-0 mx-3 mb-3"} data-aos={"zoom-in"}>
+                        <a href={"https://www.docker.com/"} className={"d-flex justify-content-center"}><Image filename={"docker_logo.png"} className={"card-img-top"} style={{width: '50px'}}/></a>
+                        <div className={"card-body"} style={{padding: "0px"}}>
+                            <div className={"card-text"}>Docker</div>
                         </div>
-                        <div className={"col-md mb-1"}>
-                            <a href={"https://getbootstrap.com/"}><Image filename={"bootstrap_logo.png"} style={{width: '50px'}}/></a>
+                    </div>
+                    <div className={"card border-0 mx-3 mb-3"} data-aos={"zoom-in"}>
+                        <a href={"https://getbootstrap.com/"} className={"d-flex justify-content-center"}><Image filename={"bootstrap_logo.png"} className={"card-img-top"} style={{width: '50px'}}/></a>
+                        <div className={"card-body"} style={{padding: "0px"}}>
+                            <div className={"card-text"}>Bootstrap</div>
                         </div>
-                        <div className={"col-md mb-1"}>
-                            <a href={"https://github.com/"}><Image filename={"github_logo.png"} style={{width: '50px'}}/></a>
+                    </div>
+                    <div className={"card border-0 mx-3 mb-3"} data-aos={"zoom-in"}>
+                        <a href={"https://github.com/"} className={"d-flex justify-content-center"}><Image filename={"github_logo.png"} className={"card-img-top"} style={{width: '50px'}}/></a>
+                        <div className={"card-body"} style={{padding: "0px"}}>
+                            <div className={"card-text"}>Github</div>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             
         </Layout>
     )
